@@ -1,0 +1,593 @@
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+        /*Style for the index page left side info items*/
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .sidebar {
+            position: absolute;
+            background-color: rgb(167, 166, 166);
+            /* width: 250px;*/
+            height: 100vh;
+            font-family: 'Libre Baskerville', serif;
+            transition: transform 0.3s ease-in;
+        }
+        
+        .sidebar nav {
+            padding: 20px;
+            /* diffetence gap in the name and the sub-headings*/
+        }
+        
+        ul {
+            padding-top: 40px;
+        }
+        
+        .sidebar nav li {
+            list-style: none;
+            /* for removing the bullet in the sub titles*/
+            font-size: 27px;
+            padding: 12px;
+        }
+        
+        .sidebar nav li a {
+            text-decoration: none;
+            color: rgb(22, 97, 171);
+        }
+        
+        .main {
+            /* background-color: yellow;*/
+            width: 96vw;
+            height: 100vh;
+        }
+        
+        .container {
+            display: flex;
+            background-color: #f9f7f7;
+            color: rgb(130, 233, 245);
+            background: url(imag/hmn.jpg);
+        }
+        
+        .container4 {
+            display: flex;
+            background-color: #0b0808;
+            color: rgb(130, 233, 245);
+            background: url(imag/int1.jpg);
+        }
+        
+        div .infoContainer img {
+            border-radius: 250px;
+        }
+        
+        .containe {
+            display: flex;
+            background: url(imag/ct.jpg);
+        }
+        
+        .containe3 {
+            display: flex;
+            background: url(imag/b.jpg);
+        }
+        
+        .container1 .main {
+            width: 96vw;
+            height: 100vh;
+            padding: 20px;
+            background: url(imag/ser1.jpg);
+        }
+        
+        .infoContainer {
+            background-color: ;
+            height: 58vh;
+            width: 80vw;
+            margin: 60px auto;
+            display: flex;
+            /* Moves the content as needed*/
+            justify-content: space-around;
+            /* Moves according to the content selected*/
+        }
+        
+        .container_ {
+            background-color: ;
+            height: 58vh;
+            width: 100vw;
+            margin: 60px auto;
+            display: flex;
+            /* Moves the content as needed*/
+            justify-content: space-around;
+            /* Moves according to the content selected*/
+        }
+        
+        .devInfo {
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            /* For making the text in center*/
+            flex-direction: column;
+            /* For bringing the multi line text in a different line as a column*/
+        }
+        
+        .Hello {
+            font-size: 3em;
+            font-family: 'Poppins', serif;
+        }
+        
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            font-family: 'Libre Baskerville', serif;
+        }
+        
+        .about {
+            font-size: 2.5em;
+        }
+        
+        .aboutmore {
+            font-size: 1em;
+            margin-top: 20px;
+            font-family: 'Libre Baskerville', serif;
+            color: #08edf4;
+        }
+        /* Buttons used here and for small buttons btn-sm*/
+        
+        .buttons {
+            margin-top: 2.2em;
+            font-size: 12px;
+        }
+        
+        .btn {
+            padding: 9px 24px;
+            /* For its own length and breadth*/
+            border-radius: 10px;
+            /* For making buttons little curvy*/
+            color: rgb(229, 229, 236);
+            /* Text color*/
+            background-color: #17d7d4e4;
+            /* Texts background color*/
+            font-weight: bold;
+            /* Font to be in bold*/
+            font-size: 2em;
+            /* Dispaly of button */
+            margin: 12px 5px;
+            /* Moving up with the other text, spacing betweein the two buttons*/
+            cursor: pointer;
+        }
+        
+        .btn-sm {
+            border-radius: 18px;
+            font-size: 10px;
+            padding: 8px 19px;
+            margin: 10px 0px;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            /* This is for the curser to change the color when a user tries to click*/
+            color: #0808a0e4;
+            background-color: rgb(229, 229, 236);
+        }
+        
+        .devPic img {
+            height: 58vh;
+        }
+        /* Style done for the contact form*/
+        
+        .Contactform {
+            font-family: 'Libre Baskerville', serif;
+            padding: 0px 34px;
+            padding-top: 100px;
+            font-weight: bold;
+        }
+        
+        .Contactform h1 {
+            font-family: 'Libre Baskerville', serif;
+            text-align: left;
+            padding: 12px 0;
+        }
+        
+        .Contactform form div {
+            padding: 10px 0px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .Contactform form div input {
+            width: 21vw;
+            border-radius: 8px;
+            margin: 6px 0 0 0;
+            padding: 3px;
+        }
+        
+        #emailHelp {
+            font-size: 7px;
+            color: blue;
+            margin: 0px 19px;
+            padding: 1px 0 0 0;
+        }
+        
+        #form-check {
+            flex-direction: row;
+        }
+        
+        #form-check input {
+            width: 24px;
+            margin: 4px 0;
+        }
+        /*Style For the blog page */
+        
+        .blogitem {
+            margin: 20px;
+            font-family: 'Libre Baskerville', serif;
+        }
+        
+        .blogContainer {
+            margin: 0 88px;
+            color: #bff3fc;
+            font-weight: 1000;
+        }
+        
+        .blogContainer h1 {
+            font-family: 'Libre Baskerville', serif;
+            margin: 23px;
+        }
+        
+        .blogitem p {
+            font-family: 'Source Code Pro', monospace;
+        }
+        /*Style For the intro page */
+        
+        .introContainer {
+            margin: 100px;
+        }
+        
+        .introContainer h1 {
+            font-family: 'Libre Baskerville', serif;
+            margin: 0px;
+        }
+        
+        .devInfo p {
+            font-family: 'Poppins', serif;
+        }
+        
+        .skillcontainer {
+            padding: 14px;
+        }
+        
+        .skillitem {
+            display: flex;
+            align-items: center;
+            font-weight: 900;
+        }
+        
+        .skill {
+            width: 232px;
+            height: 10px;
+        }
+        
+        .hund {
+            width: 232px;
+            background-color: rgb(4, 248, 77);
+        }
+        
+        .fif {
+            width: 146px;
+            background-color: rgb(25, 183, 104);
+        }
+        
+        .sev {
+            width: 198px;
+            background-color: rgb(236, 240, 9);
+        }
+        
+        .thi {
+            width: 110px;
+            background-color: rgb(243, 76, 76);
+        }
+        
+        .sidebarGo {
+            transform: translate(-443px, 0px);
+            position: absolute;
+        }
+        
+        .hamburger {
+            position: absolute;
+            cursor: pointer;
+            top: 10px;
+            left: 10px;
+        }
+        
+        .cross {
+            margin-left: 177px;
+        }
+        
+        @media (max-width:1100px) {
+            * {
+                /* background-color: rgb(241, 125, 125);*/
+            }
+            .buttons {
+                font-size: 6px;
+            }
+            .devInfo {
+                font-size: 10px;
+            }
+            .devPic {
+                display: none;
+            }
+            .intro,
+            .blogContainer,
+            .Contactform,
+            .Contactinfo,
+            .introContainer {
+                margin: 50px 8px;
+            }
+            .form-check-label {
+                padding: 8px;
+            }
+        }
+        /*new*/
+        
+        .contact {
+            position: relative;
+            min-height: 0vh;
+            padding: 43px 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: url();
+        }
+        
+        .contact .content {
+            max-width: 800px;
+            text-align: center;
+        }
+        
+        .content h1 {
+            font-size: 36px;
+            font-weight: 500;
+            color: #fff;
+            align-items: center;
+            text-align: center;
+            padding-top: 50px;
+        }
+        
+        .content p {
+            font-weight: 300;
+            color: #fff;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        
+        .myinfo {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        
+        .myinfo .contactinfo {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .myinfo .contactinfo .box {
+            position: relative;
+            padding: 20px 190px;
+            display: flex;
+        }
+        
+        .myinfo .contactinfo .box .icon {
+            min-width: 30px;
+            height: 30px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 22px;
+        }
+        
+        .myinfo .contactinfo .box .text {
+            display: flex;
+            margin-left: 20px;
+            font-size: 16px;
+            color: #fff;
+            flex-direction: column;
+            font-weight: 300;
+        }
+        
+        .myinfo .contactinfo .box .text h3 {
+            font-weight: 500;
+            color: #00bcd4;
+        }
+        
+        .contactform {
+            width: 40%;
+            padding: 40px;
+            background: #fff;
+        }
+        
+        .contactform h2 {
+            font-size: 30px;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .contactform .mb-3 {
+            position: relative;
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .contactform .mb-3 input {
+            width: 100%;
+            padding: 5px 0px;
+            font-size: 18px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 2px solid #333;
+            outline: none;
+        }
+        /**/
+        
+        .contactform .mb-3 span {
+            position: absolute;
+            left: 0;
+            padding: 5px 0px;
+            font-size: 20px;
+            margin: 10px 0;
+            pointer-events: none;
+            transition: 0.5s;
+            color: #666;
+        }
+        
+        .contactform .mb-3 input:focus~span,
+        .contactform .mb-3 input:valid~span,
+        .contactform .mb-3 input:focus~span {
+            color: rgba(206, 38, 156, 0.933);
+            font-size: 18px;
+            transform: translateY(-20px);
+        }
+        
+        .form-text {
+            color: blue;
+            font-size: 10px;
+        }
+        
+        .form-check-label {
+            color: blue;
+            font-size: 15px;
+        }
+        /*Services*/
+        
+        .container_ {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 120px;
+            width: 74vw;
+        }
+        
+        .container_ .box {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 350px;
+            background: #2e2e2e;
+        }
+        
+        .container_ .box::before {
+            content: '';
+            position: absolute;
+            inset: -10px 50px;
+            border-top: 4px solid var(--clr);
+            border-bottom: 4px solid var(--clr);
+            z-index: -1;
+            transform: skew(15deg);
+            transition: 0.5s ease-in-out;
+        }
+        
+        .container_ .box:hover::before {
+            transform: skew(0deg);
+            inset: -10px 40px;
+        }
+        
+        .container_ .box::after {
+            content: '';
+            position: absolute;
+            inset: 60px -10px;
+            border-left: 4px solid var(--clr);
+            border-right: 4px solid var(--clr);
+            z-index: -1;
+            transform: skew(15deg);
+            transition: 0.5s ease-in-out;
+        }
+        
+        .container_ .box:hover::after {
+            transform: skew(0deg);
+            inset: 40px -10px;
+        }
+        
+        .container_ .box .content {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+            padding: 0 20px;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .container_ .box .content .icon {
+            color: var(--clr);
+            width: 80px;
+            height: 80px;
+            box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 6px var(--clr);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.5em;
+            background: #2e2e2e;
+            transition: 0.5s ease-in-out;
+        }
+        
+        .container_ .box:hover .icon {
+            background: var(--clr);
+            color: #2e2e2e;
+            box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 300px var(--clr);
+        }
+        
+        .container_ .box .content h3 {
+            font-size: 1.5em;
+            color: #f7f2f2;
+            font-weight: 549;
+            transition: 0.5s ease-in-out;
+        }
+        
+        .container_ .box:hover h3 {
+            color: #2e2e2e;
+        }
+        
+        .container_ .box .content p {
+            color: #9f9d9d;
+            transition: 0.5s ease-in-out;
+        }
+        
+        .container_ .box:hover p {
+            color: #2e2e2e;
+        }
+        
+        .container_ .box .content a {
+            position: relative;
+            background: var(--clr);
+            color: #2e2e2e;
+            padding: 8px 15px;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 10px;
+            transition: 0.5s ease-in-out;
+        }
+        
+        .container_ .box:hover a {
+            background: #2e2e2e;
+            color: var(--clr)
+        }
+        
+        .container1 .main {
+            /* background-color: yellow; */
+            width: 96vw;
+            height: 100vh;
+        }
